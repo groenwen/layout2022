@@ -108,6 +108,10 @@ h1 {
   margin-right: 16px;
 }
 
+.header-social-list a:hover {
+  opacity: 80%;
+}
+
 /* section */
 section, footer {
   padding-top: 56px;
@@ -209,4 +213,11 @@ footer {
 }
 footer .sec-title, footer ul li:not(:last-child) {
   margin-bottom: 16px;
+}
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+.contact-link:hover {
+  text-decoration: underline;
 }
